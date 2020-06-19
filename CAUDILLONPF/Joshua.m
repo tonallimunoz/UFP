@@ -40,7 +40,7 @@ pcolor(date,diam,data); % rellena el mesgrid con los datos
 colormap jet %escala la colores
 shading interp %escala la colores
 % Para lo títulos del gráfico
-title({' ';(char('\bf Observation Date: 22/04/2018'))});
+title({' ';(char('\bf Observation Date: 22/04/2017'))});
 xlabel('\bf Date/Time','Fontsize',14)
 ylabel('\bf Diameter (nm)','Fontsize',14)
 ylim([min(diam),max(diam)]);
